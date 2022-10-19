@@ -3,12 +3,14 @@ package bitstream_test
 import (
 	"bytes"
 	"errors"
-	"github.com/spacemeshos/bitstream"
-	"github.com/stretchr/testify/require"
 	"io"
 	"math"
 	"strings"
 	"testing"
+
+	"github.com/stretchr/testify/require"
+
+	"github.com/spacemeshos/bitstream"
 )
 
 const (
